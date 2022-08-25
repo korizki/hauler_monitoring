@@ -1,0 +1,77 @@
+{
+    "haulers" : [
+        {
+            "unitid" : "DT55001",
+            "isOperated": true,
+            "setOperator" : {
+                "nrp" : "1",
+                "nama" : "Operator A"
+            },
+            "actualOperator" : {
+                "nrp" : "2",
+                "nama" : "Operator B"
+            }
+        },
+        {
+            "unitid" : "DT55002",
+            "isOperated": true,
+            "setOperator" : {
+                "nrp" : "2",
+                "nama" : "Operator B"
+            },
+            "actualOperator" : {
+                "nrp" : "1",
+                "nama" : "Operator A"
+            }
+        },
+        {
+            "unitid" : "DT55003",
+            "isOperated": false,
+            "setOperator" : {
+                "nrp" : "3",
+                "nama" : "Operator C"
+            },
+            "actualOperator" : {
+                "nrp" : "3",
+                "nama" : "Operator C"
+            }
+        },
+        {
+            "unitid" : "DT55004",
+            "isOperated": false,
+            "setOperator" : {
+                "nrp" : "4",
+                "nama" : "Operator D"
+            },
+            "actualOperator" : {
+                "nrp" : "4",
+                "nama" : "Operator D"
+            }
+        },
+        {
+            "unitid" : "DT55005",
+            "isOperated": true,
+            "setOperator" : {
+                "nrp" : "5",
+                "nama" : "Operator E"
+            },
+            "actualOperator" : {
+                "nrp" : "6",
+                "nama" : "Operator F"
+            }
+        },
+        {
+            "unitid" : "DT55006",
+            "isOperated": true,
+            "setOperator" : {
+                "nrp" : "6",
+                "nama" : "Operator F"
+            },
+            "actualOperator" : {
+                "nrp" : "5",
+                "nama" : "Operator E"
+            }
+        }
+        
+    ]
+}
