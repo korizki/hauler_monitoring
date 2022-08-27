@@ -6,6 +6,7 @@
             <router-link :to="{name: 'waitingoperator'}">Waiting Operator</router-link>
             <router-link :to="{name: 'operatingunit'}">Operated Unit</router-link>
             <router-link :to="{name: 'allunit'}">List All Unit</router-link>
+            <router-link :to="{name: 'allunitsec'}">All Unit - Group</router-link>
         </nav>
     </div>
 </template>

@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import WaitingUnit from '../views/WaitingUnit.vue'
 import OperatingUnit from '../views/OperatingUnit.vue'
 import AllUnit from '../views/AllUnit.vue'
+import AllUnitSec from '../views/AllUnitSc.vue'
 
 
 const routes = [
@@ -36,6 +37,14 @@ const routes = [
     component: AllUnit,
     meta: {
       title: 'All Unit | SS6 Transformore'
+    }
+  },
+  {
+    path: '/all-unit-v2',
+    name: 'allunitsec',
+    component: AllUnitSec,
+    meta: {
+      title: 'All Unit - Slide | SS6 Transformore'
     }
   }
   

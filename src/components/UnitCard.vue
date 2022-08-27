@@ -1,8 +1,8 @@
 <template>
     <div class="card" :class="isOperated ? 'rd' : 'bd' ">
-        <h2 :class="isOperated ? 'ready' : 'breakdown' " ><i class="fi fi-rr-truck-moving"></i> {{ CN }} 
+        <h2 :class="isOperated ? 'ready' : 'breakdown' " ><img src="../assets/dt.svg" class="miniicon" alt="illus"> {{ CN }} 
             <span v-if="isOperated">
-                <span v-if="!isSameOpt" class="badge backup"><i class="fi fi-rr-portrait"></i> Backup Operator</span> <span class="badge main" v-else><i class="fi fi-rr-trophy"></i> Main Operator</span>
+                <span v-if="!isSameOpt" class="badge backup"><i class="fi fi-rr-portrait"></i> Backup</span> <span class="badge main" v-else><i class="fi fi-rr-trophy"></i> Main</span>
             </span>
         </h2>
         <div class="botinfo">
@@ -42,9 +42,17 @@
 </script>
 
 <style scoped>
+    .miniicon{
+        width: 50px;
+        height: auto;
+        margin-right: 8px;
+        transform: translateY(3px);
+    }
     .card{
-        border-radius: 5px;
+        border-radius: 7px;
         width: 380px;
+        border: 1px solid rgb(244, 244, 244);
+        box-shadow: 3px 3px 20px 0 #ddd;
     }
     .card>h2{
         padding: 10px 20px;
@@ -57,12 +65,6 @@
         display: inline-block;
         margin-right: 6px;
         transform: translateY(2px);
-    }
-    .bd{
-        outline: 1px solid crimson;
-    }
-    .rd{
-        outline: 1px solid limegreen;
     }
     .botinfo{
         background: white;
@@ -108,12 +110,10 @@
     .botinfo>div>.operatedby{
         background: rgba(50, 205, 50, 0.1);
         color: limegreen;
-        border: 1px solid limegreen;
     }
     .botinfo>div>.setting{
         background: rgba(220, 20, 60, 0.1);
         color: crimson;
-        border: 1px solid crimson;
     }
     .waiting{
         color: crimson;

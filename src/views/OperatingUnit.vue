@@ -49,9 +49,8 @@
     }
     .minis{
         font-weight: 300;
-        display: inline-block;
-        font-size: 1.2rem;
-        transform: translateY(-2px);
+        font-size: 1rem;
+        color: rgb(147, 147, 147);
     }
 
 </style>

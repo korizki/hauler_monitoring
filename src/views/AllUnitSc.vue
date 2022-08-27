@@ -2,7 +2,7 @@
   <div class="top">
     <Navbar />
     <div class="heads">
-        <h1 class="header left">Unit Preview | <span class="minis" v-if="listEq.length">Total {{ listEq.length }} unit</span></h1>
+        <h1 class="header">Unit Preview | <span class="minis" v-if="listEq.length">Total {{ listEq.length }} unit</span></h1>
         <label class="labs">
             <p>Now at page <strong>{{ page }}</strong> from total pages <strong>{{totalpage}}</strong> </p>
             <!-- <input type="text" class='search' placeholder="Type unit number ... " @keyup="handlesearch" v-model="searchparam"> -->

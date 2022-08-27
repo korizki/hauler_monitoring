@@ -73,11 +73,8 @@ export default {
     box-shadow: 0 0 8px 0 crimson;
   }
   .header{
-    text-align: left !important;
-    padding: 0 20px;
     display: inline-block;
-    padding-bottom: 8px;
-    border-bottom: 5px solid crimson;
+    padding-bottom: 4px;
   }
   .top{
     margin-top: 90px;
